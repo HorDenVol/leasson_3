@@ -1,0 +1,40 @@
+.list-planets ol li h4 > a{
+    color: red;
+}
+/* a{color:red} */
+
+.merkuri_planet span:last-child{
+    color: orange;
+}
+
+.merkuri_planet span:first-child{
+    color: red;
+}
+
+.venera_planet p>span{
+    color: blue
+}
+.earth_planet div p{
+    color: yellowgreen
+}
+.earth_planet p{
+    color: rgb(27, 101, 27)
+}
+.mars_planet p span{
+    color: rgb(145, 13, 149);
+}
+.mars_planet p{
+    color: rgb(131, 149, 13);
+}
+.yupiter_planet div>p{
+    color:aqua;
+}
+.saturn_planet div p{
+    color:blueviolet;
+}
+.p_color~p{
+    color:darkmagenta;
+}
+.uran_planet p:last-child{
+    color: rgb(196, 37, 37);
+}
